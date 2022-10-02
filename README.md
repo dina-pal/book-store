@@ -10,3 +10,40 @@
 
 A brief description of what this project does and who it's for
 
+
+
+
+
+## how to run on your project
+
+Clone the project
+
+```bash
+  git clone https://github.com/dina-pal/node-backend.git
+```
+
+Go to the project directory
+
+```bash
+  cd node-backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+OR
+```bash
+  yarn
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+OR
+```bash
+yar dev
+```
