@@ -14,7 +14,7 @@ A brief description of what this project does and who it's for
 
 
 
-## how to run on your project
+## how to clone this project
 
 Clone the project
 
