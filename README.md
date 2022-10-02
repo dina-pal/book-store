@@ -27,6 +27,8 @@ Go to the project directory
 ```bash
   cd node-backend
 ```
+or rename the folder if you want 
+
 
 Install dependencies
 
