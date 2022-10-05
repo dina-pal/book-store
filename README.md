@@ -47,5 +47,5 @@ Start the server
 ```
 OR
 ```bash
-yar dev
+yarn dev
 ```
