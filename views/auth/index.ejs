@@ -1,0 +1,39 @@
+<%- include('partials/header.ejs') %>
+    <main class="h-100">
+        <div class="container">
+
+            <!-- Outer Row -->
+            <div class="row justify-content-center">
+
+                <div class="col-xl-12 col-lg-12 col-md-12">
+
+                    <div class="card o-hidden border-0 shadow-lg my-5">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ul class="nav nav-pills flex-column mb-auto site-nav">
+                                    <% for(const [key, value] of Object.entries(nav)){ %>
+                                        <li class="nav-item">
+                                            <a href="/<%= value  %> " class="nav-link " aria-current="page">
+                                                <%= key %>
+                                            </a>
+                                        </li>
+                                        <% } %>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-0 pt-3">
+                                    <%- include(`pages/${page}.ejs`) %>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <%- include('partials/footer.ejs') %>
